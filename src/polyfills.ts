@@ -8,8 +8,13 @@
  *      file.
  *
  * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
+<<<<<<< HEAD
  * automatically update themselves. This includes recent versions of Safari, Chrome (including
  * Opera), Edge on the desktop, and iOS and Chrome on mobile.
+=======
+ * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
+ * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
  *
  * Learn more in https://angular.io/guide/browser-support
  */
@@ -18,6 +23,19 @@
  * BROWSER POLYFILLS
  */
 
+<<<<<<< HEAD
+=======
+/** IE11 requires the following for NgClass support on SVG elements */
+// import 'classlist.js';  // Run `npm install --save classlist.js`.
+
+/**
+ * Web Animations `@angular/platform-browser/animations`
+ * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+ * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+ */
+// import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
 /**
  * By default, zone.js will patch all possible macroTask and DomEvents
  * user can disable parts of macroTask/DomEvents patch by setting following flags
@@ -45,7 +63,11 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
+<<<<<<< HEAD
 import 'zone.js';  // Included with Angular CLI.
+=======
+import 'zone.js/dist/zone';  // Included with Angular CLI.
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
 
 
 /***************************************************************************************************

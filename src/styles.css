@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* You can add global styles to this file, and also import other style files */
+=======
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
 * {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 200;
@@ -38,4 +41,22 @@
   
   .p-1 {
     padding: 1px;
+<<<<<<< HEAD
   }
+=======
+  }
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input {
+  display: block;
+  margin: 5px
+}
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057

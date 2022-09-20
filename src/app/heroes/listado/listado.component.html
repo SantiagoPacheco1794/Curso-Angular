@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 <p>Listado de Heroes</p>
 
 <div *ngIf="heroeBorrado, else noBorrado">
     <h3>Heroe Borrado:
         <small>{{ heroeBorrado }}</small>
     </h3>
+=======
+<p>Listado de Héroes</p>
+
+<div *ngIf="heroeBorrado; else noBorrado">
+    <h3>Héroe borrado: <small>{{ heroeBorrado }}</small> </h3>
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
 </div>
 
 <ng-template #noBorrado>
@@ -11,6 +18,7 @@
 </ng-template>
 
 
+<<<<<<< HEAD
 <button (click)="borrarHeroe()">Borrar</button>
 
 <ul>
@@ -21,3 +29,16 @@
     <li>item 4: {{heroes[3]}}</li>-->
     <li *ngFor="let heroe of heroes; let i = index"> {{ i }} {{ heroe }} </li>
 </ul>
+=======
+<button (click)="borrarHeroe()">
+    Borrar
+</button>
+
+
+<ul>
+    <li *ngFor="let heroe of heroes; let i = index"> 
+        {{ i + 1 }} - {{ heroe }}
+    </li>
+</ul>
+
+>>>>>>> 365f35271f05492e7b7710b105b92e41a435c057
